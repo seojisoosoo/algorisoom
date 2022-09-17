@@ -1,8 +1,10 @@
-n = 5
-m = 8  # m번 더하기
-k = 3  # k번 연속 x
+n, m, k = map(int, input().split())
+array = list(map(int, input().split()))
+# n = 5
+# m = 8  # m번 더하기
+# k = 3  # k번 연속 x
 
-array = [2, 3, 5, 4, 6]
+# array = [2, 3, 5, 4, 6]
 
 for i in range(n):
     for j in range(n-i-1):
