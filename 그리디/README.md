@@ -4,7 +4,6 @@
 
 input 받을때
 map(int, input().split())
-https://bio-info.tistory.com/157
 
 정렬
 sort() 오름차순
