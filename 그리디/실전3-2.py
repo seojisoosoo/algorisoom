@@ -1,6 +1,8 @@
 N, M = map(int, input().split())  # 행
 
-arr = [[*map(int, input().split())] for _ in range(N)]
+# arr = [[*map(int, input().split())] for _ in range(N)]
+arr = [list(map(int, input().split())) for _ in range(N)]
+
 card = []
 
 for i in range(N):
