@@ -2,7 +2,7 @@ import sys
 input = sys.stdin.readline
 
 n = int(input())
-arr = [int(input()) for _ in range(n)]
+arr = [int(input()) for _ in range(n)]  # 1차원 배열로 받기
 
 arr.sort()
 # weight = []
