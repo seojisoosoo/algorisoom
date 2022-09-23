@@ -16,3 +16,5 @@ for i in range(N+1):
                 result += 1
 
 print(result)
+
+# or 연산자를 썼는데, 그냥 if '3' in str(i) + str(j) + str(k) 이렇게 쓰면 훨 쉽다!
