@@ -30,3 +30,5 @@ if num_g-1 in range(8) and num_s+2 in range(8):
     result += 1
 
 print(result)
+
+# 경우의 수는 8가지이다. 모든 경우의 수를 따질것....
